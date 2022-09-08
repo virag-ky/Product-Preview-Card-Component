@@ -127,6 +127,10 @@ a {
     width: 75%;
   }
 
+  picture {
+    display: flex;
+  }
+
   .image-mobile {
     border-radius: 10px 0 0 10px;
   }
