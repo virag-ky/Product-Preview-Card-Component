@@ -5,12 +5,24 @@ const App = () => {
   return (
     <div className="App">
       <Card />
-      <div class="attribution">
+      <div className="attribution">
         Challenge by{' '}
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Frontend Mentor
         </a>
-        . Coded by <a href="#">Virag Kormoczy</a>.
+        . Coded by{' '}
+        <a
+          href="https://github.com/virag-ky"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Virag Kormoczy
+        </a>
+        .
       </div>
     </div>
   );

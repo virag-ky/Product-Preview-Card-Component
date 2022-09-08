@@ -1,7 +1,16 @@
+import cart from './images/icon-cart.svg';
+import imageMobile from './images/image-product-mobile.jpg';
+import imageDesktop from './images/image-product-desktop.jpg';
+import { useEffect, useState } from 'react';
+
 const Card = () => {
   return (
     <div className="card-container">
-      <img alt="perfume" />
+      <picture>
+        <source media="(min-width: 1440px)" srcSet={imageDesktop}></source>
+        <img alt="perfume" src={imageMobile} />
+      </picture>
+
       <div className="info">
         <h2>PERFUME</h2>
         <h1>Gabrielle Essence Eau De Parfum</h1>
@@ -13,7 +22,10 @@ const Card = () => {
           <span className="new-price">$149.99</span>
           <span className="old-price">$169.99</span>
         </div>
-        <button type="button">Add to Cart</button>
+        <button type="button">
+          <img src={cart} alt="shopping cart" />
+          Add to Cart
+        </button>
       </div>
     </div>
   );

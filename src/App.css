@@ -1,0 +1,9 @@
+.image-mobile {
+  width: 100%;
+}
+
+@media (min-width: 1440px) {
+  .image-mobile {
+    src: url('./images/image-product-desktop.jpg');
+  }
+}
