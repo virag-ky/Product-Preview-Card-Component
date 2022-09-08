@@ -13,3 +13,9 @@ body {
   background: hsl(30, 38%, 92%);
   font-family: 'Montserrat', sans-serif;
 }
+
+@media (min-width: 720px) {
+  body {
+    height: 100vh;
+  }
+}

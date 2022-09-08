@@ -6,7 +6,7 @@ const Card = () => {
   return (
     <div className="card-container">
       <picture>
-        <source media="(min-width: 1440px)" srcSet={imageDesktop}></source>
+        <source media="(min-width: 720px)" srcSet={imageDesktop}></source>
         <img className="image-mobile" alt="perfume" src={imageMobile} />
       </picture>
 
