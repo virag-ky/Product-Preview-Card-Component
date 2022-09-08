@@ -9,4 +9,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: hsl(30, 38%, 92%);
+  font-family: 'Montserrat', sans-serif;
 }

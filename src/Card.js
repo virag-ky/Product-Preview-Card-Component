@@ -1,14 +1,13 @@
 import cart from './images/icon-cart.svg';
 import imageMobile from './images/image-product-mobile.jpg';
 import imageDesktop from './images/image-product-desktop.jpg';
-import { useEffect, useState } from 'react';
 
 const Card = () => {
   return (
     <div className="card-container">
       <picture>
         <source media="(min-width: 1440px)" srcSet={imageDesktop}></source>
-        <img alt="perfume" src={imageMobile} />
+        <img className="image-mobile" alt="perfume" src={imageMobile} />
       </picture>
 
       <div className="info">
